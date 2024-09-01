@@ -10,6 +10,7 @@ export const Container = styled.header`
     align-items: center;
 
     border-bottom: 1px solid #3E3B47;
+    margin-bottom: 55px;
 
     > h1 {
         font-family: "Roboto Slab", serif;
