@@ -34,4 +34,8 @@ export const Container = styled.div`
 
         color: #999591;
     }
+
+    div#tags {
+        display: flex;
+    }
 `

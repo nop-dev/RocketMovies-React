@@ -4,7 +4,4 @@ export const Container = styled.div`
     > section {
         padding: 0 12%;
     }
-
-    
-    
 `

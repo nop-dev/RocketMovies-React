@@ -1,7 +1,10 @@
 import React from 'react';
-import { Container } from "./styles";
-import { FiPlus } from "react-icons/fi";
 import { FaStar, FaRegStar } from "react-icons/fa";
+
+import { Container } from "./styles";
+
+import { Tag } from '../Tags';
+
 
 export function MovieBlock({movieName, rating, description}) {
     return(
@@ -11,6 +14,8 @@ export function MovieBlock({movieName, rating, description}) {
                 <div id='rating'><FaStar/><FaStar/><FaStar/><FaStar/><FaRegStar/></div>
                 
                 <p>{description}</p>
+
+                <div id="tags"> <Tag tagName="Animação"/> <Tag tagName="Disney"/> <Tag tagName="Futurístico"/> </div>
             </Container>
     )
 }
