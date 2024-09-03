@@ -2,7 +2,7 @@ import { styled } from 'styled-components'
 // import { Link } from "react-router-dom";
 
 export const Container = styled.header`
-    height: 110px;
+    height: 200px;
     padding: 0 12%;
 
     display: flex;
@@ -16,7 +16,6 @@ export const Container = styled.header`
         font-family: "Roboto Slab", serif;
         color: #FF859B;
     }
-
 `
     
 export const Profile = styled.div`
