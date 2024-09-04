@@ -5,6 +5,7 @@ export const Container = styled.section``
 export const HeaderSection = styled.header`
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
 
     > h1 {
         font-family: "Roboto Slab", serif;
