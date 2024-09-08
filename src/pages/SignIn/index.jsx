@@ -32,7 +32,7 @@ export function SignIn() {
                 <a href="">Criar Conta</a>
             </aside>
 
-            <div id='backgroundEffect'>
+            <div id='background'>
                 <Background />
             </div>
         </Container>

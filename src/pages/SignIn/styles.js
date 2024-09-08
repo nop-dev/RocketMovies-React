@@ -1,6 +1,6 @@
 import { styled } from 'styled-components';
 
-import backgroundImg from '../../assets/inpage.png'
+import BackgroundImage from '../../assets/inpage.jpg'
 
 export const Container = styled.form`
     height: 100vh;
@@ -43,7 +43,7 @@ export const Container = styled.form`
             margin-bottom: 48px;
         }
         
-        > div, button {
+        > div, button, a {
             min-width: 375px;
             max-width: 375px;
         }
@@ -54,20 +54,30 @@ export const Container = styled.form`
 
         > button {
             margin: 24px 0 42px  ;
-         font-size: 16px;
-            text-align: center;
-            color: #FF859B;
-            text-decoration: none;   }
+        }
 
         > a {
-        
+            font-size: 16px;
+            text-align: center;
+            color: #FF859B;
+            text-decoration: none;
+        }
     }
+
+    > div#background {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
     }
-    `
+`
     
 export const Background = styled.div`
-    background: url(${backgroundImg}) no-repeat center center;
-    background-size: cover;
+    z-index: 0;
+    position: absolute;
+    width: 100%;
     height: 100%;
+    background: url(${BackgroundImage}) no-repeat center center;
+    background-size: cover;
 `
     
