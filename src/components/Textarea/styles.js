@@ -6,7 +6,7 @@ export const Container = styled.textarea`
     padding: 16px;
 
     width: 100%;
-    height: 250px;
+    height: 200px;
     resize: none;
 
     color: #F4EDE8;
