@@ -6,6 +6,7 @@ import { Container, Content } from './styles';
 import { Header } from '../../components/Header' 
 import { Section } from '../../components/Section'
 import { Tag } from '../../components/Tags';
+import { Link } from 'react-router-dom';
 
 export function MoviePreview() {
     return(
@@ -15,7 +16,7 @@ export function MoviePreview() {
             </div>
             
             <Content>
-                <a href='#'><FiArrowLeft /> Voltar</a>
+                <Link to={"/"}><FiArrowLeft /> Voltar</Link>
 
                 <Section title={"WALL-E"} />
 

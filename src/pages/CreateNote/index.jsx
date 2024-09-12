@@ -8,6 +8,7 @@ import { Section } from '../../components/Section'
 import { Input } from '../../components/Input';
 import { Textarea } from '../../components/Textarea';
 import { Button } from '../../components/Button';
+import { Link } from 'react-router-dom';
 
 export function CreateNote() {
     return(
@@ -17,7 +18,7 @@ export function CreateNote() {
             </div>
 
             <Content>
-                <a href='#'><FiArrowLeft /> Voltar</a>
+                <Link to={"/"}><FiArrowLeft /> Voltar</Link>
 
                 <Section title={"Novo filme"} />
 

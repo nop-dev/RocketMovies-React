@@ -3,7 +3,7 @@ import { Container, HeaderSection } from "./styles"
 
 import { Button } from '../../components/Button/index.jsx';
 
-export function Section({title, $btnActivate, btnTitle, btnIcon}) {
+export function Section({title, $btnActivate, btnTitle, btnIcon, $href}) {
     return(
         <Container>
             <HeaderSection>

@@ -6,6 +6,7 @@ import { GoPerson } from "react-icons/go";
 import { Container, Background } from './styles';
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
+import { Link } from 'react-router-dom';
 
 export function SignUp() {
     return(
@@ -36,7 +37,7 @@ export function SignUp() {
 
                 <Button title="Cadastrar"/>
 
-                <a href=""><FiArrowLeft /> Voltar para o login</a>
+                <Link to={"/"}><FiArrowLeft /> Voltar para o login</Link>
             </aside>
 
             <div id='background'>

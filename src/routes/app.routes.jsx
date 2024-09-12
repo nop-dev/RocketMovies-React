@@ -1,3 +1,4 @@
+import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 
 import { Home } from '../pages/Home'
@@ -11,7 +12,7 @@ export function AppRoutes() {
             <Route path='/' element={<Home />} />
             <Route path='/profile' element={<Profile />} />
             <Route path='/newnote' element={<CreateNote />} />
-            <Route path='/MoviePreview/:note_id' element={<MoviePreview />} /> // em breve, provavelmente vou alterar aqui, isso é provisório
+            <Route path='/moviepreview/:note_id' element={<MoviePreview />} /> // em breve, provavelmente vou alterar aqui, isso é provisório
         </Routes>
     )
 }
