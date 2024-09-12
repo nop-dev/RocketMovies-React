@@ -44,5 +44,4 @@ export function CreateNote() {
     )
 }
 
-// fazer o scroll de MoviePreview e CreateNote
 // resolver bug dos inputs com labels

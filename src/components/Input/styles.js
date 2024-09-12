@@ -1,21 +1,27 @@
 import { styled } from 'styled-components'
 
 export const Container = styled.div`
-    background-color: #262529;
+    width: 100%;
     padding: 16px;
 
-    color: #F4EDE8;
-    
-    border: none;
+    background-color: #262529;
+
     border-radius: 10px;
 
-    display: flex;
-    align-items: center;
-
     > input {
+        height: 56px;
+        width: 100%;
+        height: 100%;
+
+        color: #F4EDE8;
+        background: transparent;
+        border: 0;
+
         font-size: 16px;
-        border: none;
-        background: none;
+        
+        &:focus-visible {
+            outline: none;
+        }
     }
 
     > svg {
