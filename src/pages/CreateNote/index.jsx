@@ -43,5 +43,3 @@ export function CreateNote() {
         </Container>
     )
 }
-
-// resolver bug dos inputs com labels
