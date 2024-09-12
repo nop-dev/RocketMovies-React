@@ -45,6 +45,30 @@ export const Content = styled.div`
         }
     }
 
+    div#noterelated {
+        max-height: 50vh;
+        overflow-y: auto;
+        padding-right: 10px;
+    }
+
+    div#noterelated::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    div#noterelated::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    div#noterelated::-webkit-scrollbar-thumb {
+        background-color: #FF859B;
+        border-radius: 8px;
+        border: 2px solid transparent;
+    }
+
+    div#noterelated::-webkit-scrollbar-thumb:hover {
+        background-color: #FF859B
+    }     
+
     div#tags {
         display: flex;
 
