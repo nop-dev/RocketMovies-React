@@ -4,6 +4,9 @@ export const Container = styled.div`
     width: 100%;
     padding: 16px;
 
+    display: flex;
+    align-items: center;
+
     background-color: #262529;
 
     border-radius: 10px;
@@ -27,5 +30,6 @@ export const Container = styled.div`
     > svg {
         margin-right: 16px;
         background: none;
+        color: #948F99;
     }
 `
